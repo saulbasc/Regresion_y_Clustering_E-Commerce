@@ -77,3 +77,7 @@ build/
 
 # OS
 Thumbs.db
+
+# Project
+output/
+!output/.gitkeep
