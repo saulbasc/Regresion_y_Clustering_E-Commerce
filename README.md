@@ -56,6 +56,9 @@ jupyter notebook
 ```
 .
 ├── src/                    # Notebooks de análisis
+├── data/                   # CSV inicial a explorar
+│   └── data.csv           # Dataset original
+├── output/                 # Salidas de CSV modificados
 ├── docs/                   # Documentación LaTeX y PDF
 │   ├── *.tex              # Archivos fuente LaTeX
 │   └── documento.pdf      # PDF final (se sube a Git)
