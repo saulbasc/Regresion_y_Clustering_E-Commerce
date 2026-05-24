@@ -4,3 +4,6 @@ numpy>=2.0.0
 pandas>=3.0.1
 matplotlib>=3.8.0
 scikit-learn>=1.8.0
+xgboost
+prophet
+seaborn
