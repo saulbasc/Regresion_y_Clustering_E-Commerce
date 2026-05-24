@@ -60,9 +60,41 @@ jupyter notebook
 │   └── data.csv           # Dataset original
 ├── output/                 # Salidas de CSV modificados
 ├── docs/                   # Documentación LaTeX y PDF
-│   ├── *.tex              # Archivos fuente LaTeX
-│   └── documento.pdf      # PDF final (se sube a Git)
+│   └── documento.pdf      # PDF final
 ├── README.md              # Este archivo
 ├── requirements.txt       # Dependencias Python
 └── .gitignore            # Archivos excluidos de Git
 ```
+
+## Orden de ejecución recomendado
+
+1. **`src/exploracion.ipynb`** - Exploración inicial del dataset
+   - Análisis descriptivo de variables
+   - Visualización de distribuciones
+   - Identificación de patrones
+
+2. **`src/limpieza.ipynb`** - Limpieza y tratamiento de datos
+   - Detección y tratamiento de valores faltantes
+   - Eliminación de duplicados
+   - Detección y tratamiento de outliers
+   - Validación de tipos de datos
+
+3. **`src/tratamiento_clustering.ipynb`** - Preparación de datos para clustering
+   - Normalización y escalado de variables
+   - Selección de características
+   - Generación de datos limpios para clustering
+
+4. **`src/tratamiento_regresion.ipynb`** - Preparación de datos para regresión
+   - Normalización y escalado de variables
+   - Selección de características
+   - Generación de datos limpios para regresión
+
+5. **`src/modelos_clustering/`** - Modelos de clustering
+   - K-Means
+   - DBSCAN
+   - Análisis de perfiles de clientes
+
+6. **`src/modelos_regresion/`** - Modelos de regresión
+   - Regresión Lineal
+   - Random Forest
+   - XGBoost
