@@ -61,7 +61,6 @@ build/
 *.dvi
 *.ps
 *.png
-*.pdf
 *.toc
 
 # Compilación LaTeX específica
