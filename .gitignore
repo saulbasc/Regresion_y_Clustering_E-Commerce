@@ -36,6 +36,7 @@ venv.bak/
 *.ipynb_checkpoints
 
 # LaTeX
+*.tex
 *.aux
 *.bbl
 *.blg
@@ -52,7 +53,6 @@ venv.bak/
 *.log
 *.lot
 *.out
-*.pdf
 *.synctex.gz
 *.synctex.gz(busy)
 *.toc
@@ -60,6 +60,9 @@ venv.bak/
 build/
 *.dvi
 *.ps
+*.png
+*.pdf
+*.toc
 
 # Compilación LaTeX específica
 **/*.synctex
