@@ -1,6 +1,7 @@
 # Regresión y Clustering E-Commerce
 
 Análisis de regresión lineal y clustering para datos de e-commerce, realizado mediante Jupyter Notebooks y con su documentación en LaTeX.
+[Ver documentación](./docs/regresion_y_clustering_e-commerce.pdf)
 
 ## Setup rápido
 
